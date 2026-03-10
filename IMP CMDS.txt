@@ -1,3 +1,5 @@
+------STQC Banglore------
+
 mysql -u root -p
 java --version
 mysql --version
