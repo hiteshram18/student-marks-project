@@ -1,4 +1,6 @@
 ------STQC Banglore------
+Learning github is almost done - 10032026
+
 
 mysql -u root -p
 java --version
