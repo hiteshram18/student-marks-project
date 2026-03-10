@@ -1,12 +1,12 @@
 class Marks {
     public static void main(String[] args) {
-        int marks = 85;
 
-        if(marks >= 90)
-            System.out.println("Grade A");
-        else if(marks >= 75)
-            System.out.println("Grade B");
-        else
-            System.out.println("Grade C");
+        int m1 = 80;
+        int m2 = 70;
+        int m3 = 90;
+
+        int avg = (m1 + m2 + m3) / 3;
+
+        System.out.println("Average Marks: " + avg);
     }
 }
