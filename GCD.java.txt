@@ -8,6 +8,6 @@ class Main {
                 gcd = i;
             }
         }
-        System.out.println(gcd);
+        System.out.println("Greatest common divider is:"+gcd);
     }
 }
