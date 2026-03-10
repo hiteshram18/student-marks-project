@@ -1,0 +1,90 @@
+mysql -u root -p
+java --version
+mysql --version
+
+
+sudo ./emba -f ~/folder   m426/m4216_12.10.18.fimage -l ./Testfolder -p ./scan-profiles/default-scan.emba
+
+
+
+
+binwalk --version
+cd ~/Desktop
+ls
+binwalk firmware.bin
+binwalk -e firmware.bin
+cd _firmware.bin.extracted
+file romfs-x.squashfs.img
+binwalk -e romfs-x.squashfs.img
+cd _romfs-x.squashfs.img.extracted
+cd squashfs-root
+ls
+
+
+
+notepad src\components\Projects.tsx
+
+
+
+
+
+
+git commands 
+git init 
+git status 
+git add.
+git commit -m "Initial version of marks program"
+git log 
+git remote add origin https://github.com/yourusername/student-marks-project.git
+git branch -M main
+git push -u origin main
+
+
+branch  : If experiment works → copy it into main report.
+
+If experiment fails → delete it.
+
+That experiment copy = branch.
+
+git branch feature-average
+git checkout feature-average
+git checkout main
+git merge feature-average
+git push
+
+-----------------------------------------------
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin REPO_URL
+git branch -M main
+git push -u origin main
+
+
+------------------------------------------------
+Correct sequence :
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git branch feature-login
+git checkout feature-login
+git add .
+git commit -m "Added login feature"
+git checkout main
+git merge feature-login
+git remote add origin <repo link>
+git branch -M main
+git push -u origin main
+git pull origin main
+
+-----------------------------------------------
+
+
+
+
+
+
+
